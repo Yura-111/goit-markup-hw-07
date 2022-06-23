@@ -354,10 +354,11 @@
 
 /* team */
 
-.team{
-    
-}
 
+.team {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .team__group {
     background: #FFFFFF;
@@ -376,12 +377,6 @@
 
 .team__group:nth-child(4n) {
     margin-right: 0;
-}
-
-
-.team {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .soc {
